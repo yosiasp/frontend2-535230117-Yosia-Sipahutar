@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+    --black-color: #000;
+    --white-color: #fff;
+    --red-color: #de4766;
+    --light-grey-color: #f3f3f3;
+    --grey-color: #333333;
+    --font-color: #A7A7B9;
+}
+
+body {
+    background-color: var(--black-color);
+}
+
+.container-fluid .navbar-brand {
+    font-weight: 600;
+    color: #fff;
+    font-style: bold;
+}
+
+#navbarNav .navbar-nav .nav-link {
+    font-weight: 400;
+    font-style: normal;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: #fff;
+    transition: transform 0.3s ease, font-size 0.3s ease;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    font-size: 1.25rem; /* Increase font size */
+    transform: translateY(-5px); /* Move text upwards */
+}
+
+.navbar-nav .nav-item .nav-link-active {
+    color: #fff;
+}
+
+.navbar-nav .nav-item .btn.btn-dark {
+    background-color: #DE4766;
+    color: #000;
+}
+
+.container-fluid .navbar-toggler {
+    background-color: #de4766;
+    color: #000;
+}
+
+.nav-item-spacing {
+  margin-right: 15px; 
+}
+
+.container .row .col-md-6 .display-4 {
+    font-weight: 600;
+    font-style: bold;
+    color: var(--red-color);
+}
+
+.container .row .col-md-6 .lead {
+    color: var(--font-color);
+}
+
+.container .row .col-md-6 .normal-text {
+    color: var(--white-color);
+}
+
+.btn.btn-dark.btn-md.mt-3 {
+    background-color: var(--red-color) !important;
+    color: var(--black-color) !important;
+}
+
+
+.hero {
+    background-color: var(--black-color) !important;
+}
+
+.penjelasan-container {
+    background-color: var(--red-color) !important;
+}
+
+.penjelasan .container .row .col-md-5 .display-4 {
+    font-weight: 600;
+    font-style: bold;
+    color: var(--black-color);
+}
+
+.penjelasan .container .row .col-md-5 .normal-text {
+    color: var(--white-color);
+}
+
+.penjelasan {
+    background-color: var(--red-color) !important;
+}
+
+.subscribe .container .text-center .display-5 {
+    color: var(--red-color);
+    font-weight: 600;
+}
+
+.subscribe .container .text-center .normal-text {
+    color: var(--white-color);
+    font-weight: 400;
+}
+
+.subscribe .container .form-control {
+    background-color: var(--grey-color) !important;
+    color: var(--white-color) !important;
+    
+}
+
+.subscribe .container .form-control::placeholder {
+    color: var(--white-color) !important;
+}
+
+.subscribe .container .btn.btn-dark.btn-md.w-100.rounded-0 {
+    background-color: var(--red-color);
+    color: var(--black-color) !important;
+}
+
+.subscribe {
+    background-color: var(--black-color) !important; 
+}
+
+.footer {
+    background-color: var(--red-color) !important;
+    color: var(--black-color) !important;
+}
+
+.list-unstyled .text-light {
+    color: var(--black-color) !important;
+    text-decoration: none;
+}
+
+.about {
+    background-color: var(--black-color) !important;
+}
+
+.display-5{
+    font-weight: 600;
+    color: var(--red-color);
+}
+
+h3 {
+    font-weight: 500;
+    color: var(--red-color);
+}
+
+.subscribe-about {
+    background-color: var(--red-color) !important;
+}
+
+#subscribe-about .display-5 {
+    color: var(--black-color) !important;
+}
+
+#subscribe-about .row .col-md-3 .form-control {
+    background-color: var(--grey-color) !important;
+    color: var(--white-color) !important;
+}
+#subscribe-about .row .col-md-3 .btn {
+    background-color: var(--black-color) !important;
+    color: var(--red-color) !important;
+}
+
+.footer {
+    background-color: var(--black-color) !important;
+    color: var(--red-color) !important;
+}
+
+.footer .col-md-4 .list-unstyled .text-light {
+    color: var(--red-color) !important;
+}
+
+.modal-about h5 {
+    color: var(--black-color) !important;
+}
+
+.modal-about .modal-body {
+    color: var(--black-color) !important;
+}
+
+#contact-kontak .form-control {
+    background-color: var(--grey-color) !important;
+    color: var(--red-color) !important;
+}
+
+#contact-kontak .form-control::placeholder {
+    color: var(--red-color) !important;
+}
+
+#contact-kontak .btn {
+    background-color: var(--red-color) !important;
+    color: var(--black-color) !important;
+} 
