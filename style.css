@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-:root{
+:root {
     --black-color: #000;
     --white-color: #fff;
     --red-color: #de4766;
@@ -30,8 +30,8 @@ body {
 }
 
 .navbar-nav .nav-item .nav-link:hover {
-    font-size: 1.25rem; /* Increase font size */
-    transform: translateY(-5px); /* Move text upwards */
+    font-size: 1.25rem; 
+    transform: translateY(-5px); 
 }
 
 .navbar-nav .nav-item .nav-link-active {
@@ -49,7 +49,7 @@ body {
 }
 
 .nav-item-spacing {
-  margin-right: 15px; 
+    margin-right: 15px;
 }
 
 .container .row .col-md-6 .display-4 {
@@ -70,7 +70,6 @@ body {
     background-color: var(--red-color) !important;
     color: var(--black-color) !important;
 }
-
 
 .hero {
     background-color: var(--black-color) !important;
@@ -107,7 +106,6 @@ body {
 .subscribe .container .form-control {
     background-color: var(--grey-color) !important;
     color: var(--white-color) !important;
-    
 }
 
 .subscribe .container .form-control::placeholder {
@@ -120,7 +118,7 @@ body {
 }
 
 .subscribe {
-    background-color: var(--black-color) !important; 
+    background-color: var(--black-color) !important;
 }
 
 .footer {
@@ -137,7 +135,7 @@ body {
     background-color: var(--black-color) !important;
 }
 
-.display-5{
+.display-5 {
     font-weight: 600;
     color: var(--red-color);
 }
@@ -159,6 +157,7 @@ h3 {
     background-color: var(--grey-color) !important;
     color: var(--white-color) !important;
 }
+
 #subscribe-about .row .col-md-3 .btn {
     background-color: var(--black-color) !important;
     color: var(--red-color) !important;
@@ -193,8 +192,7 @@ h3 {
 #contact-kontak .btn {
     background-color: var(--red-color) !important;
     color: var(--black-color) !important;
-} 
-
+}
 
 #subscribe-cont {
     background-color: var(--red-color) !important;
