@@ -194,3 +194,37 @@ h3 {
     background-color: var(--red-color) !important;
     color: var(--black-color) !important;
 } 
+
+
+#subscribe-cont {
+    background-color: var(--red-color) !important;
+}
+
+#subscribe-cont .text-center .display-5 {
+    color: var(--black-color) !important;
+}
+
+#subscribe-cont .text-center .normal-text {
+    color: var(--black-color) !important;
+}
+
+#subscribe-cont .btn {
+    background-color: var(--black-color) !important;
+    color: var(--red-color) !important;
+}
+
+#subscribe-cont #error-message {
+    color: var(--black-color) !important;
+}
+
+#subscribe-index #error-message {
+    color: var(--red-color) !important;
+}
+
+#subscribe-about {
+    background-color: var(--red-color) !important;
+}
+
+#subscribe-about #error-message {
+    color: var(--black-color) !important;
+}
